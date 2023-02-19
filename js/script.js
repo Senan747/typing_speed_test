@@ -89,6 +89,7 @@ function play(){
     time_left = max_time;
     is_typing = 0;
     char_index = 0;
+    mistake = 0;
     time.innerText = time_left;
     mistakes.innerText = 0;
     cpm.innerText = 0; 
